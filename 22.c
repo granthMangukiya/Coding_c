@@ -10,11 +10,10 @@ int main()
     float PoundToKgs = 0.453592;
     float InchesToMeters = 0.0254;
     float first, second;
-    printf("Enter the character. q to quit\n        1. kms to miles\n        2. inches to foot\n        3. cms to inches\n        4. pound to kgs\n        5. inches to meter\n");
-
+    
     while (1)
     {
-        printf("Enter the input");
+        printf("Enter the character. q to quit\n        1. kms to miles\n        2. inches to foot\n        3. cms to inches\n        4. pound to kgs\n        5. inches to meter\n");
         scanf("%c", &input);
 
         switch (input)

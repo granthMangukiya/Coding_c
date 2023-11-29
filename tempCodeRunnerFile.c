@@ -1,17 +1,5 @@
-#include <stdio.h>
-
-int main()
-{
-    int num,index = 0;
-    printf("enter a number");
-    scanf("%d", &num);
-
-    do
-    {
-
-        printf("%d", index);
-        index = index + 1;
-    } while (index < num);
-
-    return 0;
-}
+ // for (int i = 0; i < 4; i++)
+    // {
+    //     printf("enter the value of %d element of the array:\n", i);
+    //     scanf("%d", &marks[i]);
+    // }

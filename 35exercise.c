@@ -3,14 +3,14 @@
 
 int main()
 {
-    char s1[10];
-    char s2[10];
+    char str1[10];
+    char str2[10];
 
     printf("enter name of first person:\n");
-    scanf("%s",&s1);
+    scanf("%s",&str1);
     printf("enter name of second person:\n");
-    scanf("%s",&s2);
+    scanf("%s",&str2);
 
-    printf("%s and %s are best friends", s1,s2);
+    printf("%s and %s are best friends", str1,str2);
     return 0;
 }

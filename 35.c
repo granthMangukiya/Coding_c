@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <string.h>
-
 int main()
 {
     char s1[] = "Harry";
@@ -17,5 +16,6 @@ int main()
     // puts(strrev(s2));
     // strcpy(s3, strcat(s1, s2));
     // puts(s2);
+
     return 0;
 }

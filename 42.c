@@ -6,7 +6,7 @@ int ret()
 }
 int func1(int b1)
 {
-    static int myvar = ret();
+    static int myvar = 98;
     printf("The value of my var is %d\n", myvar);
     myvar++;
     // printf("The value of b inside func1 is %d\n", b);

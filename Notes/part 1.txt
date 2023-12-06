@@ -1,0 +1,27 @@
+* Format specifiers *
+	
+	1. %c  -> character
+	2. %d  -> ineger
+	3. %f  -> float
+	4. %e  -> long
+	5. %if -> double
+	6. %lf -> long double
+	
+	
+* escape sequence *
+
+	1.  \a   ->  alarm or beep
+	2.  \b   ->  backspace
+	3.  \f   ->  form feed
+	4.  \n   ->  new line
+	5.  \r   ->  carriage return
+	6.  \t   ->  tab (horizontal)
+	7.  \v   -> vertical tab
+	8.  \\   -> backslash
+	9.  \'   -> single quote
+	10. \"   -> double quote
+	11. \?   -> question mark
+	12. \nnn -> octal number
+	13. \xhh -> hexadecimal number
+	14. \0   -> null
+	
